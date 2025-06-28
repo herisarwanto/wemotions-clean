@@ -1,0 +1,60 @@
+# Flutter & Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+.fvm/
+pubspec.lock
+
+# Build output
+build/
+**/build/
+android/app/build/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Signing files (if any)
+*.jks
+*.keystore
+*.pem
+*.p12
+
+# Binary / cache / temporary
+*.log
+*.tmp
+*.lock
+*.swp
+
+# Output files (besar)
+*.apk
+*.aab
+*.so
+*.bin
+*.dill
+*.track.dill
+*.blob
+*.zip
+*.jar
+*.ipa
+
+# Artifacts from Android builds
+android/app/outputs/
+
+# Flutter web
+web/.dart_tool/
+web/build/
+
+# Optional: coverage reports
+coverage/
+lcov.info
